@@ -79,7 +79,7 @@ $comments->alt(' comment-odd', ' comment-even');
             <input type="url" name="url" id="url" class="form-control input-control clearfix" placeholder="Website (optional)" value="" <?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?>>
             <?php endif; ?>
 
-            <textarea name="text" id="textarea" class="form-control" placeholder="留下评论.. Leave a comment.." required ><?php $this->remember('text',false); ?></textarea>
+            <textarea name="text" id="textarea" class="form-control" placeholder="留下评论.." required ><?php $this->remember('text',false); ?></textarea>
 
             <button type="submit" class="submit" id="misubmit">➤</button>
             <?php $security = $this->widget('Widget_Security'); ?>
