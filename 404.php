@@ -9,7 +9,7 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp"/><?php if($this->options->favicon): ?>
         <link rel="shortcut icon" href="<?php $this->options->favicon(); ?>"><?php endif;?><?php if($this->options->iosicon): ?>
         <link rel="apple-touch-icon" href="<?php $this->options->iosicon();?>"><?php endif; ?>
-        <title>Nothing here - <?php $this->options->title() ?></title>
+        <title>此处空无一物!</br>Nothing Here!<?php $this->options->title() ?></title>
         <style>
         body{
             margin:0;padding:0;

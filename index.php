@@ -2,10 +2,12 @@
 /**
  * Pinghsu是一款以前端性能优化为出发点而制作的Typecho主题，同时又兼顾设计美学和视觉传达。主题命名取自作者姓名和其女朋友姓名的最后一个字的港式英文，挣扎于Hsuping还是Pinghsu，最后取为Pinghsu，意为一切都是Ping先Hsu后，即系要听女朋友的话。
  *
- * @package Pinghsu Theme
- * @author Chakhsu Lau
+ * @package Pinghsu Theme (Remi Modified)
+ * @author Original work by Chakhsu Lau, Modified by Remi
  * @version 1.6.2
  * @link https://www.linpx.com/
+ * 
+ * Modified by Remi. https://remiki.ren
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
@@ -96,7 +98,7 @@ $this->need('header.php');
 							<p><?php $this->excerpt(150, '...');?></p>
 						</div>
 						<div class="item-readmore">
-							<a href="<?php $this->permalink(); ?>"> Continue Reading → </a>
+							<a href="<?php $this->permalink(); ?>"> Read ➡ </a>
 						</div>
 					</div>
 				</div>
@@ -106,7 +108,7 @@ $this->need('header.php');
 		</div>
 	</div>
 	<div class="lists-navigator clearfix">
-    <?php $this->pageNav('←','→','2','...'); ?>
+    <?php $this->pageNav('⬅','➡','2','...'); ?>
   </div>
 </div>
 
