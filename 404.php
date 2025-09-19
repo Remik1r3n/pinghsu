@@ -36,8 +36,6 @@
             line-height: 1;
             font-weight: 100;
             color: #066eac;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             animation: hue 60s infinite linear;
         }
         .site-name404 h1 {
