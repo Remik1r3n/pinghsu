@@ -41,11 +41,11 @@
                 </div>
             </div>
             <div class="meta-item meta-posts">
-                <h3 class="meta-title">Recent Posts</h3>
+                <h3 class="meta-title">📰 Recent Posts..</h3>
                 <?php getRecentPosts($this,8); ?>
             </div>
             <div class="meta-item meta-tags">
-                <h3 class="meta-title">Hot Tags</h3>
+                <h3 class="meta-title">🏷 Hot Tags..</h3>
                 <?php getHotTags($this,20); ?>
         </div>
     </div>

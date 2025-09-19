@@ -39,11 +39,7 @@
 <header id="header" class="header bg-white">
     <div class="navbar-container">
         <a href="<?php $this->options->siteUrl(); ?>" class="navbar-logo">
-            <?php if($this->options->logoUrl): ?>
-            <img src="<?php $this->options->logoUrl();?>" alt="<?php $this->options->title() ?>" />
-            <?php else : ?>
             <?php $this->options->title() ?>
-            <?php endif; ?>
         </a>
         <div class="navbar-menu">
 			<?php if ($this->options->categoryNav == 'able'): ?>
