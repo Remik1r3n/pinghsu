@@ -63,7 +63,7 @@
             <div class="content">
                 <h1 class="error-code">404</h1>
                 <p class="error-message">Page not found</br>未找到页面</p>
-                <a href="<?php $this->options->siteUrl(); ?>" class="home-link">◀ 回到首页 Back to Homepage</a>
+                <a href="<?php $this->options->siteUrl(); ?>" class="home-link">◀ 返回 Back</a>
             </div>
         </div>
     </body>
