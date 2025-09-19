@@ -32,7 +32,7 @@
                         <?php endif; ?>
                     </a>
                     <div class="info-text">
-                        <p>Proudly Powered by Typecho</p>
+                        <p>Powered by Typecho</p>
                         <p>Theme <a href="https://github.com/chakhsu/pinghsu" target="blank">Pinghsu</a> by <a href="https://www.linpx.com/" target="_blank">Chakhsu</a></p>
                         <p>Modified by <a href="https://remiki.ren/" target="_blank">Remi</a></p>
                         <p><a href="https://icp.gov.moe/?keyword=20201113" target="_blank">萌ICP备20201113号</a>
