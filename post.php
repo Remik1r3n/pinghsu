@@ -71,7 +71,7 @@
         </p>
 		<?php parseContent($this); ?>
 		<p class="post-info">
-			本站文章除注明转载/出处外，均为本站原创或翻译，<br>并在 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">知识共享署名 4.0</a> 国际许可协议下提供。</br>若有相关的疑问或质疑，请留下评论，或<a href="https://blog.remiki.ren/about.html">联系我</a>。
+			本站文章除注明转载/出处外，</br>均为本站原创或翻译，</br>并在 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">知识共享署名 4.0</a> 国际许可协议下提供。</br>若有相关的疑问或质疑，请留下评论，或<a href="https://blog.remiki.ren/about.html">联系我</a>。
 		</p>
 	</div>
 </article>

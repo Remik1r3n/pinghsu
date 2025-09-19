@@ -51,7 +51,7 @@
 				</div>
 				<?php endwhile; ?>
 				<?php else: ?>
-                <div class="post-list-item"><?php _e('未找到结果。请尝试更换关键词。</br>No results. Try using different keywords.'); ?></div>
+                <div class="post-list-item"><?php _e('无结果。请尝试更换关键词。</br>No results. Try using different keywords.'); ?></div>
 		        <?php endif; ?>
 			</div>
 		</div>
