@@ -252,7 +252,7 @@ function theNext($widget, $default = NULL){
     $content = $db->fetchRow($sql);
     if ($content) {
         $content = $widget->filter($content);
-        $link = '<a href="'.$content['permalink'].'" title="'.$content['title'].'">←</a>';
+        $link = '<a href="'.$content['permalink'].'" title="'.$content['title'].'">⬅</a>';
         echo $link;
     } else {
         echo $default;
@@ -271,7 +271,7 @@ function thePrev($widget, $default = NULL){
     $content = $db->fetchRow($sql);
     if ($content) {
         $content = $widget->filter($content);
-        $link = '<a href="'.$content['permalink'].'" title="'.$content['title'].'">→</a>';
+        $link = '<a href="'.$content['permalink'].'" title="'.$content['title'].'">➡</a>';
         echo $link;
     } else {
         echo $default;

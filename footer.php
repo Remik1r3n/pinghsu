@@ -5,17 +5,17 @@
         <div class="footer-container clearfix">
             <div class="social-list">
             <?php if ($this->options->socialweibo): ?>
-                <a class="social weibo" target="blank" href="<?php $this->options->socialweibo(); ?>">WEIBO</a>
+                <a class="social weibo" target="blank" href="<?php $this->options->socialweibo(); ?>">Weibo</a>
             <?php endif; ?>
             <?php if ($this->options->socialzhihu): ?>
-                <a class="social zhihu" target="blank" href="<?php $this->options->socialzhihu(); ?>">ZHIHU</a>
+                <a class="social zhihu" target="blank" href="<?php $this->options->socialzhihu(); ?>">Zhihu</a>
             <?php endif; ?>
                 <a class="social rss" target="blank" href="<?php $this->options->siteUrl(); ?>feed/">RSS</a>
             <?php if ($this->options->socialgithub): ?>
-                <a class="social github" target="blank" href="<?php $this->options->socialgithub(); ?>">GITHUB</a>
+                <a class="social github" target="blank" href="<?php $this->options->socialgithub(); ?>">GitHub</a>
             <?php endif; ?>
             <?php if ($this->options->socialtwitter): ?>
-                <a class="social twitter" target="blank" href="<?php $this->options->socialtwitter(); ?>">TWITTER</a>
+                <a class="social twitter" target="blank" href="<?php $this->options->socialtwitter(); ?>">X (Twitter)</a>
             <?php endif; ?>
             </div>
         </div>
@@ -32,20 +32,19 @@
                         <?php endif; ?>
                     </a>
                     <div class="info-text">
-                        <p>Theme is <a href="https://github.com/chakhsu/pinghsu" target="blank">Pinghsu</a> by <a href="https://www.linpx.com/" target="_blank">Chakhsu</a></p>
-                        <?php if ($this->options->ICPRecordNumber): ?>
-                        <p><a href="https://beian.miit.gov.cn/" target="blank" ><?php $this->options->ICPRecordNumber(); ?></a></p>
-                        <?php endif; ?>
+                        <p>Theme <a href="https://github.com/chakhsu/pinghsu" target="blank">Pinghsu</a> by <a href="https://www.linpx.com/" target="_blank">Chakhsu</a></p>
+                        <p>Modified by <a href="https://blog.remiki.ren/" target="_blank">Remi</a></p>
+                        <p><a href="https://icp.gov.moe/?keyword=20201113" target="_blank">萌ICP备20201113号</a>
                         <p>&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a></p>
                     </div>
                 </div>
             </div>
             <div class="meta-item meta-posts">
-                <h3 class="meta-title">RECENT POSTS</h3>
+                <h3 class="meta-title">Recent Posts</h3>
                 <?php getRecentPosts($this,8); ?>
             </div>
             <div class="meta-item meta-tags">
-                <h3 class="meta-title">HOT TAGS</h3>
+                <h3 class="meta-title">Hot Tags</h3>
                 <?php getHotTags($this,20); ?>
         </div>
     </div>

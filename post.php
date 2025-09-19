@@ -71,7 +71,7 @@
         </p>
 		<?php parseContent($this); ?>
 		<p class="post-info">
-			本文由 <a href="<?php $this->author->permalink(); ?>"><?php $this->author() ?></a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">知识共享署名4.0</a> 国际许可协议进行许可。<br>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名。
+			本站文章除注明转载/出处外，均为本站原创或翻译，<br>并在 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external nofollow">知识共享署名 4.0</a> 国际许可协议下提供。</br>若有相关的疑问或质疑，请留下评论，或<a href="https://blog.remiki.ren/about.html">联系我</a>。
 		</p>
 	</div>
 </article>
@@ -79,17 +79,16 @@
 <div id="post-bottom-bar" class="post-bottom-bar">
 	<div class="bottom-bar-inner">
 		<div class="bottom-bar-items social-share left">
-			<span class="bottom-bar-item">Share : </span>
-			<span class="bottom-bar-item bottom-bar-facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode($this->permalink()); ?>" target="_blank" title="<?php $this->title() ?>" rel="nofollow">Facebook</a></span>
-			<span class="bottom-bar-item bottom-bar-x"><a href="https://twitter.com/intent/tweet?url=<?php echo urlencode($this->permalink()); ?>&text=<?php echo urlencode($this->title()); ?>" target="_blank" title="<?php $this->title() ?>" rel="nofollow">X</a></span>
+			<span class="bottom-bar-item">🔁 Share</span>
+			<span class="bottom-bar-item bottom-bar-x"><a href="https://twitter.com/intent/tweet?url=<?php echo urlencode($this->permalink()); ?>&text=<?php echo urlencode($this->title()); ?>" target="_blank" title="<?php $this->title() ?>" rel="nofollow">Twitter (X)</a></span>
 			<span class="bottom-bar-item bottom-bar-weibo"><a href="http://service.weibo.com/share/share.php?url=<?php echo urlencode($this->permalink()); ?>&amp;title=<?php echo urlencode($this->title()); ?>" target="_blank" title="<?php $this->title() ?>" rel="nofollow">Weibo</a></span>
-			<span class="bottom-bar-item bottom-bar-qrcode"><a href="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=<?php echo urlencode($this->permalink()); ?>" target="_blank" rel="nofollow">QR code</a></span>
+			<span class="bottom-bar-item bottom-bar-qrcode"><a href="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=<?php echo urlencode($this->permalink()); ?>" target="_blank" rel="nofollow">QR Code</a></span>
 		</div>
 		<div class="bottom-bar-items right">
 			<span class="bottom-bar-item"><?php theNext($this); ?></span>
 			<span class="bottom-bar-item"><?php thePrev($this); ?></span>
-			<span class="bottom-bar-item"><a href="#footer">↓</a></span>
-			<span class="bottom-bar-item"><a href="#">↑</a></span>
+			<span class="bottom-bar-item"><a href="#footer">⬇</a></span>
+			<span class="bottom-bar-item"><a href="#">⬆</a></span>
 		</div>
 	</div>
 </div>

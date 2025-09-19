@@ -51,13 +51,13 @@
 				</div>
 				<?php endwhile; ?>
 				<?php else: ?>
-                <div class="post-list-item"><?php _e('没有找到内容,请换别的关键字进行检索'); ?></div>
+                <div class="post-list-item"><?php _e('未找到结果。请尝试更换关键词。</br>No results. Try using different keywords.'); ?></div>
 		        <?php endif; ?>
 			</div>
 		</div>
 	</div>
 	<div class="lists-navigator clearfix">
-        <?php $this->pageNav('←','→'); ?>
+        <?php $this->pageNav('⬅','➡'); ?>
     </div>
 </div>
 
