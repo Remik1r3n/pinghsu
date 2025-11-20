@@ -54,7 +54,7 @@ $comments->alt(' comment-odd', ' comment-even');
                 <span class="comment-author-at"><?php getCommentAt($comments->coid); ?></span> <?php $comments->content(); ?></p>
             </div>
             <div class="comment-meta">
-                <time class="comment-time"><?php $comments->date('M j, Y'); ?></time>
+                <time class="comment-time"><?php $comments->date('Y/m/d'); ?></time>
                 <span class="comment-reply" data-no-instant><?php $comments->reply('Reply'); ?></span>
             </div>
         </div>

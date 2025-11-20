@@ -41,7 +41,7 @@ $this->need('header.php');
 					<div class="item-label">
 						<div class="item-title"><a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a></div>
 						<div class="item-meta clearfix">
-							<div class="item-meta-date"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('M j, Y'); ?></time></div>
+							<div class="item-meta-date"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y/m/d'); ?></time></div>
 							<?php if (isset($this->___fields()['book'])): ?>
 							<div class="item-meta-ico bg-ico-book" style="background: url(<?php $this->options->themeUrl('images/bg-ico.png'); ?>) no-repeat;background-size: 40px auto;"></div>
 							<?php elseif (isset($this->___fields()['game'])): ?>
@@ -91,7 +91,7 @@ $this->need('header.php');
 							<a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a>
 						</div>
 						<div class="item-meta">
-							<time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"> Published on <?php $this->date('M j, Y'); ?></time> in <?php $this->category(','); ?> </a>
+							<time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"> <?php $this->date('Y/m/d'); ?></time>, Tags: <?php $this->category(','); ?> </a>
 						</div>
 						<div class="item-meta-hr <?php if ($this->options->colorBgPosts == 'defaultColor'): ?> bg-deepgrey<?php elseif ($this->options->colorBgPosts == 'customColor'): ?><?php if (isset($this->___fields()['green'])): ?> bg-green<?php elseif (isset($this->___fields()['red'])): ?> bg-red<?php elseif (isset($this->___fields()['yellow'])): ?> bg-yellow<?php elseif (isset($this->___fields()['blue'])): ?> bg-blue<?php elseif (isset($this->___fields()['purple'])): ?> bg-purple<?php else : ?> bg-<?php echo randBgColor(); ?><?php endif; ?><?php endif; ?>"></div>
 						<div class="item-content">
