@@ -78,8 +78,7 @@ $comments->alt(' comment-odd', ' comment-even');
             <input type="email" name="mail" id="mail" class="form-control input-control clearfix" placeholder="Email" value="" <?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?>>
             <input type="url" name="url" id="url" class="form-control input-control clearfix" placeholder="Website (optional)" value="" <?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?>>
             <?php endif; ?>
-
-            <textarea name="text" id="textarea" class="form-control" placeholder="留下评论.." required ><?php $this->remember('text',false); ?></textarea>
+            <textarea name="text" id="textarea" class="form-control" placeholder="评论审核后可见。除垃圾评论、不合规的评论以外，所有评论我都会尽快通过审核 :)" required ><?php $this->remember('text',false); ?></textarea>
 
             <button type="submit" class="submit" id="misubmit">➤</button>
             <?php $security = $this->widget('Widget_Security'); ?>
